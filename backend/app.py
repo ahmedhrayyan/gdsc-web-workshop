@@ -63,3 +63,6 @@ def update_task(id):
   db.commit()
   task = db.execute("SELECT * FROM tasks WHERE id = ?", (id,)).fetchone()
   return {"data": dict(task)}
+
+if __name__ == "__main__":
+  app.run(debug=True)
