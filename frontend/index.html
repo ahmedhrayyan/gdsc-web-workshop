@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasks</title>
+  </head>
+  <body style="max-width: 960px; padding: 20px; margin: 0 auto">
+    <header
+      style="display: flex; align-items: center; justify-content: space-between"
+    >
+      <h1>Tasks list</h1>
+      <button id="showDialog">Add new</button>
+      <dialog id="addTaskDialog">
+        <p>Add new task</p>
+        <form id="addForm">
+          <input type="text" required name="content">
+          <br>
+          <br>
+          <button type="button" id="cancelDialog">Cancel</button>
+          <button type="submit">Add</button>
+        </form>
+      </dialog>
+    </header>
+    <h3 id="loading" style="text-align: center">Is Loading...</h3>
+    <ul id="tasksId"></ul>
+    <script src="main.js"></script>
+  </body>
+</html>
