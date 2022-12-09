@@ -1,6 +1,6 @@
 # Google DSC Workshop Tasks project
 
-## requirements
+## Requirements
 * Python for running backend
 * Visual Studio Code editor
 * Postman for testing & documenting the APIs
